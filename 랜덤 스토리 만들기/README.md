@@ -1,12 +1,80 @@
-# Random Story Generator - All Versions
+📘 랜덤 스토리 생성기 (Random Story Generator) — v1 ~ v5 전체 버전 모음
 
-This archive contains v1..v5 of the Random Story Generator. Each version is an independent small React + Vite project.
+이 저장소는 랜덤 스토리 생성기(Random Story Generator) 프로젝트의 v1부터 v5까지 개발 과정 전체를 버전별로 정리한 아카이브입니다.
+각 버전은 독립적인 React + Vite 프로젝트로 구성되어 있으며, 팀 프로젝트 수행을 위해 GitHub에 업로드하거나 협업용 커밋 기록을 쌓기에 적합하도록 구성되어 있습니다.
 
-## How to run a specific version
 
-1. cd into the version folder, e.g. `cd v5`
-2. npm install
-3. npm run dev
+각 폴더는 완전히 독립적인 프로젝트이며, 버전이 올라갈수록 기능과 구조가 점진적으로 개선됩니다.
 
-Then open the URL shown by Vite (usually http://localhost:5173)
+v1 — 가장 기본적인 랜덤 스토리 생성
 
+v2 — 장르/프리셋 기능 추가
+
+v3 — StoryEngine.js 도입, 시드 기반 스토리 생성
+
+v4 — localStorage를 통한 히스토리 저장
+
+v5 — 다크모드, 등장인물 수 설정, JSON 내보내기 등 완성도 높음
+
+🚀 실행 방법 (공통)
+
+각 버전은 별도 프로젝트이므로 실행하고 싶은 버전 디렉터리로 이동하여 다음을 실행하세요.
+
+1) 폴더 이동
+
+예: v5 실행
+
+cd v5
+
+2) 패키지 설치
+npm install
+
+3) 개발 서버 실행
+npm run dev
+
+4) 브라우저에서 접속
+
+대부분의 경우 아래 주소에서 실행됩니다:
+
+http://localhost:5173/
+
+🧩 버전별 주요 기능 요약
+🔹 v1 — 기본 기능 구현
+
+단일 입력값(주제)을 기반으로 간단한 스토리 생성
+
+React 기본 상태 관리 사용
+
+🔹 v2 — 장르 및 프리셋 시스템 추가
+
+장르 선택(fantasy / horror / romance / sf)
+
+선택한 장르에 따라 자동으로 주제 프리셋 적용
+
+스토리 표현 방식 개선
+
+🔹 v3 — 스토리 엔진 분리 및 고도화
+
+StoryEngine.js를 별도 모듈로 분리
+
+시드(seed)를 사용한 재현 가능한 랜덤 생성
+
+등장인물, 역할, 배경 요소 자동 구성
+
+🔹 v4 — 사용자 경험 개선
+
+스토리 생성 후 히스토리를 localStorage에 저장
+
+UI 상에서 이전 스토리 목록 확인 가능
+
+기본 스토리 엔진은 v3에서 그대로 가져옴
+
+🔹 v5 — 최종 개선 버전
+
+다크 모드 지원
+
+등장인물 수 조절 기능
+
+JSON 형태로 스토리 내보내기 기능
+
+생성 엔진/입력 기능 안정화 및 UI 전체 다듬기
