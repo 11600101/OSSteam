@@ -7,45 +7,6 @@
 
 ---
 
-## 📂 프로젝트 구조
-```
-v1/
-  src/RandomStoryGenerator.jsx
-v2/
-  src/RandomStoryGenerator.jsx
-v3/
-  src/RandomStoryGenerator.jsx
-v4/
-  src/RandomStoryGenerator.jsx
-v5/
-  src/RandomStoryGenerator.jsx
-```
-
----
-
-## 🚀 기능 요약
-### **v1 – 최소 기능 구현**
-- 기본 UI
-- 주제 선택 후 랜덤 스토리 1개 출력
-
-### **v2 – 스타일 및 UX 개선**
-- Tailwind UI 개선
-- 카드 레이아웃 적용
-
-### **v3 – 모듈 분리 & 엔진 구조화**
-- StoryEngine 분리
-- Hook 기반 구조 개선
-
-### **v4 – 스토리 다양성 향상**
-- 랜덤 문장 조합 규칙 추가
-- StoryEngine 알고리즘 향상
-
-### **v5 – 완성도 강화**
-- 더 다양한 장르 템플릿 지원
-- UI 개선 및 코드 정리
-
----
-
 ## 🔧 설치 및 실행
 ### 1) 클론
 ```
