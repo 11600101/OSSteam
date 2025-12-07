@@ -1,0 +1,14 @@
+{
+  "name": "random-story-all-versions",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:v5": "cd v5 && vite",
+    "dev:v4": "cd v4 && vite",
+    "dev:v3": "cd v3 && vite",
+    "dev:v2": "cd v2 && vite",
+    "dev:v1": "cd v1 && vite"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
